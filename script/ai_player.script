@@ -6,6 +6,8 @@ This script contains any player specific code.
 
 ***********************************************************************/
 
+#define ARMOR_PROTECTION "0.5"
+
 object player : player_base {
 	weapon_base weapon;
 	boolean		weapon_changed;
@@ -67,6 +69,9 @@ void player::init() {
 	start_fire = false;
 	animState( ANIMCHANNEL_TORSO, "Torso_Idle", 0 );
 	animState( ANIMCHANNEL_LEGS, "Legs_Idle", 0 );
+	if ( sys.getcvar( "g_armorProtection" ) != ARMOR_PROTECTION ) {
+		sys.setcvar( "g_armorProtection", ARMOR_PROTECTION );
+	}
 }
 
 /*
