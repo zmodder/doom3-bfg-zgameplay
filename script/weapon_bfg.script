@@ -173,6 +173,10 @@ void weapon_bfg::Fire() {
 }
 
 void weapon_bfg::Reload() {
+	if (ammoInClip() > 0) {
+		weaponState( "Idle", BFG_RELOAD_TO_IDLE );
+		return;
+	}
 	weaponReloading();
 	playAnim( ANIMCHANNEL_ALL, "reload" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, BFG_RELOAD_TO_IDLE ) );

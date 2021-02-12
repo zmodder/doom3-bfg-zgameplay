@@ -111,6 +111,10 @@ void weapon_pistol::Fire() {
 }
 
 void weapon_pistol::Reload() {
+	if (ammoInClip() > 0) {
+		weaponState( "Idle", PISTOL_RELOAD_TO_IDLE );
+		return;
+	}
 	weaponReloading();
 	playAnim( ANIMCHANNEL_ALL, "reload" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, PISTOL_RELOAD_TO_IDLE ) );

@@ -120,6 +120,10 @@ void weapon_plasmagun::Fire() {
 }
 
 void weapon_plasmagun::Reload() {
+	if (ammoInClip() > 0) {
+		weaponState( "Idle", PLASMAGUN_RELOAD_TO_IDLE );
+		return;
+	}
 	weaponReloading();
 	playAnim( ANIMCHANNEL_ALL, "reload" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, PLASMAGUN_RELOAD_TO_IDLE ) );

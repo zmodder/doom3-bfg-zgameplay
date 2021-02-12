@@ -212,6 +212,10 @@ void weapon_chaingun::Fire() {
 }
 
 void weapon_chaingun::Reload() {
+	if (ammoInClip() > 0) {
+		weaponState( "Idle", CHAINGUN_RELOAD_TO_IDLE );
+		return;
+	}
 	weaponReloading();
 	playAnim( ANIMCHANNEL_ALL, "reload" );
 	while( !animDone( ANIMCHANNEL_ALL, CHAINGUN_RELOAD_TO_IDLE ) ) {

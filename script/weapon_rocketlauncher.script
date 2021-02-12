@@ -138,6 +138,10 @@ void weapon_rocketlauncher::Fire() {
 }
 
 void weapon_rocketlauncher::Reload() {
+	if (ammoInClip() > 0) {
+		weaponState( "Idle", ROCKETLAUNCHER_RELOAD_TO_IDLE );
+		return;
+	}
 	weaponReloading();
 	playAnim( ANIMCHANNEL_ALL, "reload" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, ROCKETLAUNCHER_RELOAD_FRAME ) );
