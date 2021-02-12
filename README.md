@@ -24,3 +24,7 @@ Doom3 BFG $ git clone https://github.com/zmodder/doom3-bfg-customplay.git custom
 
 To start, add `+set fs_game customplay +set fs_resourceLoadPriority 0`
 to the command line.
+
+It also comes with an optional `autoexec.cfg` that's suitable for
+low-end computers that don't handle the default graphics setting. To
+use it, rename `optional_autoexec.cfg` to `autoexec.cfg`.
