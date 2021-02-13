@@ -3,11 +3,15 @@
 ## Features
 
 - More useful armor: absorbs 50% of damage instead of 20%
-- Slightly more useful shotgun: less spread so more powerful at medium
+- Slightly more useful shotguns: less spread so more powerful at medium
   range.
-- More realistic weapon reloading
+- Rebalanced super shotgun so that while it has more spread, it produces
+  25% more projectiles than two shotgun shots.
+- Realistic weapon reloading
   - Allow reloading only when clip is empty (except shotgun)
   - Shotgun reloads one shell at a time (instead of two)
+- Realistic ammo pickups
+  - Pickup sizes are consistent with weapon clip sizes and pickup models.
 
 ## How to use
 
