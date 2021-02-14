@@ -1,4 +1,7 @@
-# customplay - a minimum gameplay mod for Doom3-BFG
+# zgameplay - zmodder's gameplay mod for Doom3-BFG
+
+This is a minimal gameplay change to make Doom3 BFG Edition more balanced
+and more realistic.
 
 ## Features
 
@@ -7,10 +10,16 @@
   range.
 - Rebalanced super shotgun so that while it has more spread, it produces
   25% more projectiles than two shotgun shots.
-- Realistic weapon reloading
+- Realistic weapon reloading.  The reloading mechanism of the modern FPS
+  is not also unrealistic as it merges the remaining ammo in real time,
+  but also repetitive and triggers obsession.  I find it more fun to play
+  without preemptive reloading.
   - Allow reloading only when clip is empty (except shotgun)
   - Shotgun reloads one shell at a time (instead of two)
-- Realistic ammo pickups
+- Realistic and more balanced ammo pickups.  Doom3 BFG increased the ammo
+  supplied by almost all pickups, resulting in a serious oversupply and
+  threw off gameplay balance.  The mod reverted such change to be more
+  consistent with the original Doom3.
   - Pickup sizes are consistent with weapon clip sizes and pickup models.
     Also adjusted some weapons' clip sizes to avoid over-supply of ammo:
     - Reduce machinegun clip size from 60 to 30 because there are just
@@ -30,10 +39,10 @@ Download the whole repo and put it in a subdirectory called
 For example, using git:
 
 ```
-Doom3 BFG $ git clone https://github.com/zmodder/doom3-bfg-customplay.git customplay
+Doom3 BFG $ git clone https://github.com/zmodder/doom3-bfg-zgameplay.git zgameplay
 ```
 
-To start, add `+set fs_game customplay +set fs_resourceLoadPriority 0`
+To start, add `+set fs_game zgameplay +set fs_resourceLoadPriority 0`
 to the command line.
 
 It also comes with an optional `autoexec.cfg` that's suitable for
