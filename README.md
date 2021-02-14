@@ -12,6 +12,8 @@
   - Shotgun reloads one shell at a time (instead of two)
 - Realistic ammo pickups
   - Pickup sizes are consistent with weapon clip sizes and pickup models.
+    - Reduce machinegun clip size from 60 to 30 because there are just
+      too much ammo supply
 
 ## How to use
 
