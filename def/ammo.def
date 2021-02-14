@@ -137,16 +137,17 @@ entityDef ammo_clip_large {
 	"editor_maxs"			"16 16 32"
 	"editor_rotatable"			"1"
 
-	"editor_usage"			"Large ammo clip"
+	"editor_usage"			"Small ammo clip"
 
 	"spawnclass"			"idItem"
-	"model"					"models/items/clip_ammo/clip_large.lwo"
-	"snd_acquire"			"sound/items/clip_pickup_large.wav"
+	"model"					"models/items/clip_ammo/clip_small.lwo"
+	"snd_acquire"			"sound/items/clip_pickup_small.wav"
 	"snd_respawn"			"sound_item_respawn"
 	"size"					"32 32 32"
-	"inv_ammo_clip"			"60"
+	"inv_ammo_clip"			"30"
 	"inv_item"				"4"
 	"inv_name"				"Clip"
+	
 	"editor_copy100"		"inv_item"
 }
 

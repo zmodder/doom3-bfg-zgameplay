@@ -14,7 +14,8 @@
   - Pickup sizes are consistent with weapon clip sizes and pickup models.
     Also adjusted some weapons' clip sizes to avoid over-supply of ammo:
     - Reduce machinegun clip size from 60 to 30 because there are just
-      too much ammo supply
+      too much ammo supply.
+    - All machinegun large clip pickups (45) are changed to small (30).
     - Reduce plasma gun clip size from 50 to 25 to be consistent with
       the original Doom3.  Clip size of 50 also results in too much
       supply.
