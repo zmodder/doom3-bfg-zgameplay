@@ -35,7 +35,7 @@ Because the original BFG executable doesn't support modding, you have
 to use a sourceport such as RBDOOM-3-BFG.
 
 Download the whole repo and put it in a subdirectory called
-`customplay` under Doom3 BFG's install directory, along with `base`.
+`zgameplay` under Doom3 BFG's install directory, along with `base`.
 For example, using git:
 
 ```
