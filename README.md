@@ -6,10 +6,11 @@ and more realistic.
 ## Features
 
 - More useful armor: absorbs 50% of damage instead of 20%
-- Slightly more useful shotguns: less spread so more powerful at medium
-  range.
+- Slightly more useful shotguns: less spread so more powerful at
+  medium range, despite producing less pellets.  Also increased its
+  firing rate.
 - Rebalanced super shotgun so that while it has more spread, it produces
-  25% more projectiles than two shotgun shots.
+  50% more projectiles than two shotgun shots.
 - Realistic weapon reloading.  The reloading mechanism of the modern FPS
   is not also unrealistic as it merges the remaining ammo in real time,
   but also repetitive and triggers obsession.  I find it more fun to play
