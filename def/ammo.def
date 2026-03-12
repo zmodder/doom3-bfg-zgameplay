@@ -101,7 +101,6 @@ entityDef ammo_shells_large {
 	"editor_usage"			"Large shells"
 
 	"spawnclass"			"idItem"
-	"model"					"models/items/shells_ammo/shells_small.lwo"
 	"model"					"models/items/bullet_ammo/bullet_small.lwo"
 	"snd_acquire"			"sound/items/clip_pickup_small.wav"
 	"snd_respawn"			"sound_item_respawn"
