@@ -17,10 +17,29 @@ and more realistic.
   without preemptive reloading.
   - Allow reloading only when clip is empty (except shotgun)
   - Shotgun reloads one shell at a time (instead of two)
-- Realistic and more balanced ammo pickups.  Doom3 BFG increased the ammo
-  supplied by almost all pickups, resulting in a serious oversupply and
-  threw off gameplay balance.  The mod reverted such change to be more
-  consistent with the original Doom3.
+- Realistic and more balanced ammo pickups.  Doom3 BFG increased the
+  ammo supplied by almost all pickups, and added more pickups in the
+  maps, resulting in a serious oversupply and threw off gameplay
+  balance.  The mod:
+  - Reduced the clip sizes of machine gun (60->40) and plasma gun
+    (50->30)
+  - Reduced ammo pick up sizes in general
+      - Small bullets: 24 -> 12 (in line with pistol clip size)
+      - Large bullets: 48 -> 12 (just don't need that many bullets)
+      - Small shells: 12 -> 6 (only 6 shells are shown on the model)
+      - Large shells: 24 -> 12 (just doubling)
+      - Small clip: 60 -> 40 (in line with the machine gun clip size)
+      - Large clip: 90 -> 10 (just don't need that many ammo.  I wish
+        I could remove them.  Imagine they are almost empty clips)
+      - Grenedes: 8 -> 4 (only 4 are shown on the model)
+      - Small rockets: 5 -> 4 (only 4 are shown on the model)
+      - Large rockets: 20 -> 8 (only 8 are shown on the model)
+      - Cell: 50 -> 30 (in line with the plasma gun clip size)
+      - Double cell: 75 -> 10 (just don't need that many ammo.  I wish
+        I could remove them.  Imagine they are almost empty cells.)
+      - Ammo belt: 90 -> 60 (in line with chain gun clip size)
+      - BFG cell: 6 -> 4 (in line with BFG clip size)
+
 
 ## How to use
 
