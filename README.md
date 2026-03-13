@@ -27,16 +27,14 @@ and more realistic.
       - Small bullets: 24 -> 12 (in line with pistol clip size)
       - Large bullets: 48 -> 12 (just don't need that many bullets)
       - Small shells: 12 -> 6 (only 6 shells are shown on the model)
-      - Large shells: 24 -> 12 (just doubling)
+      - Large shells: 24 -> 12 (doubling the small pick up)
       - Small clip: 60 -> 40 (in line with the machine gun clip size)
-      - Large clip: 90 -> 10 (just don't need that many ammo.  I wish
-        I could remove them.  Imagine they are almost empty clips)
+      - Large clip: 90 -> 0 (can't be picked up)
       - Grenedes: 8 -> 4 (only 4 are shown on the model)
       - Small rockets: 5 -> 4 (only 4 are shown on the model)
       - Large rockets: 20 -> 8 (only 8 are shown on the model)
       - Cell: 50 -> 30 (in line with the plasma gun clip size)
-      - Double cell: 75 -> 10 (just don't need that many ammo.  I wish
-        I could remove them.  Imagine they are almost empty cells.)
+      - Double cell: 75 -> 0 (can't be picked up)
       - Ammo belt: 90 -> 60 (in line with chain gun clip size)
       - BFG cell: 6 -> 4 (in line with BFG clip size)
 
