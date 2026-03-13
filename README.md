@@ -17,19 +17,10 @@ and more realistic.
   without preemptive reloading.
   - Allow reloading only when clip is empty (except shotgun)
   - Shotgun reloads one shell at a time (instead of two)
-- Realistic and more balanced ammo pickups.  Doom3 BFG increased the
-  ammo supplied by almost all pickups, resulting in a serious
-  oversupply and threw off gameplay balance.  Even in the original
-  Doom 3, small ammo pickups are not in line with the clip size, e.g.,
-  picking up a machine gun clip gives you 30 rounds, but a machine gun
-  clip holds 60 rounds.  The mod:
-  - Increases the volume of ammo pickups so that they align with the
-    actual clip size of the weapon.  To mitigate over-supply, cuts
-    down the clip size of the machine gun and plasma gun.
-  - Changed all large ammo pickups to small pistol bullet pickups,
-    effectively making them useless, to further cut down the ammo
-    supply brought by BFG edition.
-
+- Realistic and more balanced ammo pickups.  Doom3 BFG increased the ammo
+  supplied by almost all pickups, resulting in a serious oversupply and
+  threw off gameplay balance.  The mod reverted such change to be more
+  consistent with the original Doom3.
 
 ## How to use
 
