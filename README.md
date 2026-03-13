@@ -30,7 +30,7 @@ and more realistic.
       - Large shells: 24 -> 12 (doubling the small pick up)
       - Small clip: 60 -> 40 (in line with the machine gun clip size)
       - Large clip: 90 -> 0 (can't be picked up)
-      - Grenedes: 8 -> 4 (only 4 are shown on the model)
+      - Grenades: 8 -> 4 (only 4 are shown on the model)
       - Small rockets: 5 -> 4 (only 4 are shown on the model)
       - Large rockets: 20 -> 8 (only 8 are shown on the model)
       - Cell: 50 -> 30 (in line with the plasma gun clip size)
